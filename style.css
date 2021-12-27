@@ -211,15 +211,15 @@ input:hover {
     }
 
     .bar_center {
-        padding-left: 50px;
+        padding-left: 40px;
     }
 
     .second_line2, .second_line3, .second_line4 {
-        padding-left: 5px;
+        padding-left: 2px;
     }
 
 	.second_line6, .second_line7 {
-		padding-left: 5px;
+		padding-left: 2px;
 	}
     .second_line4 {
         width: 150px;
@@ -227,7 +227,7 @@ input:hover {
 
     .bar_botton3 {
         position: absolute;
-		padding-left: 30px;
+		padding-left: 10px;
         width: 100%;
         margin-top: 47px; 
         background-color: #f2f2f2;
