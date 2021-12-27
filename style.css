@@ -39,6 +39,7 @@ body {
 	border-radius: 4px;
 	font-size: 14px;
 }
+
 .google_apps img {
 	padding-right: 25px;
 	padding-top: 9px;
@@ -83,6 +84,7 @@ input {
 	border: 1px solid #b9b9b960;
     outline: none;
     padding-left: 20px;
+    font-size: 17px;
 }
 
 input:hover {
@@ -151,14 +153,14 @@ input:hover {
 	border-bottom: 1px solid #9a9fa571;
 }
 
-.second_line {
+.second_line1, .second_line2, .second_line3, .second_line4 {
 	padding: 15px;
 	padding-left: 30px;
 	color: #70757a;
 	font-size: 14px;
 }
 
-.second_line2 {
+.second_line {
 	padding: 15px;
 	padding-left: 30px;
 	color: #70757a;
@@ -170,6 +172,51 @@ input:hover {
 	text-decoration: underline;
 }
 
+.second_line1:hover {
+	text-decoration: underline;
+}
+
 .second_line2:hover {
 	text-decoration: underline;
+}
+
+.second_line3:hover {
+	text-decoration: underline;
+}
+
+.second_line4:hover {
+	text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+    .container_google img {
+        padding-bottom: 20px;
+        padding-top: 60px;
+        padding-left: 140px;
+    }
+    
+    input {
+        width: 440px;
+    }
+
+    .bar_center {
+        padding-left: 75px;
+    }
+
+    .second_line2, .second_line3, .second_line4 {
+        padding-left: 15px;
+    }
+
+    .second_line4 {
+        width: 180px;
+    }
+
+    .bar_botton3 {
+        position: absolute;
+        width: 100%;
+        padding: 0;
+        margin-top: 50px; 
+        background-color: #f2f2f2;
+        border-top: 1px solid #9a9fa571;
+    }
 }
