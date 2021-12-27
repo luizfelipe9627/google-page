@@ -81,6 +81,8 @@ input {
 	height: 43px;
 	border-radius: 20px;
 	border: 1px solid #b9b9b960;
+    outline: none;
+    padding-left: 20px;
 }
 
 input:hover {
