@@ -206,7 +206,7 @@ input:hover {
 @media (max-width: 600px) {
 
 	.container_google {
-		height: 690px;
+		height: 630px;
 
 	}
 	.container_google img {
@@ -238,7 +238,10 @@ input:hover {
 		font-size: 11px;
 	}
 
-	.second_line5,
+	.second_line5 {
+		padding-left: 5px;
+		font-size: 11px;
+	}
 	.second_line6,
 	.second_line7 {
 		padding-left: 2px;
@@ -250,7 +253,7 @@ input:hover {
 
 	.bar_botton3 {
 		position: absolute;
-		padding-left: 27px;
+		padding-left: 25px;
 		width: 387px;
 		margin-top: 47px;
 		background-color: #f2f2f2;
