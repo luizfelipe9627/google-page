@@ -160,7 +160,7 @@ input:hover {
 	font-size: 14px;
 }
 
-.second_line {
+.second_line5, .second_line6, .second_line7  {
 	padding: 15px;
 	padding-left: 30px;
 	color: #70757a;
@@ -188,34 +188,46 @@ input:hover {
 	text-decoration: underline;
 }
 
+.second_line5:hover {
+	text-decoration: underline;
+}
+.second_line6:hover {
+	text-decoration: underline;
+}
+.second_line7:hover {
+	text-decoration: underline;
+}
+
 @media (max-width: 600px) {
     .container_google img {
         padding-bottom: 20px;
         padding-top: 60px;
-        padding-left: 100px;
+        padding-left: 90px;
     }
     
     input {
-        width: 400px;
+        width: 380px;
     }
 
     .bar_center {
-        padding-left: 75px;
+        padding-left: 60px;
     }
 
     .second_line2, .second_line3, .second_line4 {
-        padding-left: 10px;
+        padding-left: 5px;
     }
 
+	..second_line6, .second_line7 {
+		padding-left: 5px;
+	}
     .second_line4 {
-        width: 180px;
+        width: 175px;
     }
 
     .bar_botton3 {
         position: absolute;
         width: 100%;
-        padding-left: 10px;
-        margin-top: 45px; 
+        margin-top: 47px; 
         background-color: #f2f2f2;
         border-top: 1px solid #9a9fa571;
     }
