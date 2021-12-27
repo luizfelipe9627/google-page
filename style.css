@@ -228,7 +228,8 @@ input:hover {
     .bar_botton3 {
         position: absolute;
 		padding-left: 10px;
-        width: 100%;
+        width: auto;
+		height: auto;
         margin-top: 47px; 
         background-color: #f2f2f2;
         border-top: 1px solid #9a9fa571;
