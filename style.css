@@ -1,3 +1,8 @@
+/*
+CSS GERAL
+*/
+
+
 * {
 	font-family: Arial, Helvetica, sans-serif;
 }
@@ -8,28 +13,44 @@ body {
 	padding: 0px;
 }
 
-.bar_top {
+
+/*
+CSS BARRA SUPERIOR
+*/
+
+
+header {
 	display: flex;
 	flex-direction: row;
 	justify-content: right;
 	padding: 13px;
 }
 
-.bar_gmail {
+header a {
+	text-decoration: none;
+	color: #3f3f3f;
+}
+
+header .bar_gmail {
 	padding-right: 20px;
 	padding-top: 10px;
 	text-align: center;
 	font-size: 13px;
 }
 
-.bar_imagens {
+header .bar_imagens {
 	padding-right: 30px;
 	padding-top: 10px;
 	text-align: center;
 	font-size: 13px;
 }
 
-.bar_login {
+header .google_apps img {
+	padding-right: 25px;
+	padding-top: 9px;
+}
+ 
+header .bar_login {
 	padding: 10px;
 	width: 100px;
 	background-color: #2c7de9;
@@ -40,44 +61,39 @@ body {
 	font-size: 14px;
 }
 
-.google_apps img {
-	padding-right: 25px;
-	padding-top: 9px;
-}
-
-.bar_gmail:hover {
-	text-decoration: underline;
-}
-
-.bar_imagens:hover {
-	text-decoration: underline;
-}
-
-.bar_login:hover {
+header .bar_login:hover {
 	background-color: rgb(80, 148, 237);
 	border: 1px solid rgb(80, 148, 237);
 }
 
-.bar_top a {
-	text-decoration: none;
-	color: #3f3f3f;
+header .bar_gmail:hover {
+	text-decoration: underline;
 }
 
-.container_google {
+header .bar_imagens:hover {
+	text-decoration: underline;
+}
+
+
+/*
+CSS ÁREA GOOGLE
+*/
+
+section .container_google {
 	display: flex;
 	height: 440px;
 	flex-direction: column;
 	text-align: center;
 }
 
-.container_google img {
+section img {
 	text-align: center;
 	padding-left: 560px;
 	padding-bottom: 20px;
 	padding-top: 60px;
 }
 
-input {
+section input {
 	width: 550px;
 	height: 43px;
 	border-radius: 20px;
@@ -87,18 +103,18 @@ input {
 	font-size: 17px;
 }
 
-input:hover {
+section input:hover {
 	box-shadow: 2px 2px #b9b9b960;
 }
 
-.bar_center {
+section .bar_center {
 	display: flex;
 	flex-direction: row;
 	padding-left: 500px;
 }
 
-.search_google,
-.luck_google {
+section .search_google,
+section .luck_google {
 	border: 1px solid #e7e4e431;
 	background-color: #e7e4e431;
 	color: #3f3f3f;
@@ -109,26 +125,33 @@ input:hover {
 	margin-left: 18px;
 }
 
-.search_google:hover {
+section .search_google:hover {
 	border: 1px solid #dadce0;
 }
 
-.luck_google:hover {
+section .luck_google:hover {
 	border: 1px solid #dadce0;
 }
 
-.bar_center a {
+section .bar_center a {
 	text-decoration: none;
 	display: flex;
 }
 
-.bar_botton {
+
+/*
+CSS ÁREA RODAPÉ
+*/
+
+
+footer .bar_botton {
 	background-color: #f2f2f2;
 	width: 100%;
 	height: 47px;
+	margin-top: 28px;
 }
 
-.bar_botton2 {
+footer .bar_botton2 {
 	display: flex;
 	flex-direction: row;
 	background-color: #f2f2f2;
@@ -136,16 +159,16 @@ input:hover {
 	height: 47px;
 }
 
-.bar_botton2 a {
+footer .bar_botton2 a {
 	display: flex;
 	text-decoration: none;
 }
 
-.bar_botton3 {
+footer .bar_botton3 {
 	padding-left: 480px;
 }
 
-.first_line {
+footer .first_line {
 	padding: 15px;
 	padding-left: 30px;
 	color: #70757a;
@@ -153,19 +176,14 @@ input:hover {
 	border-bottom: 1px solid #9a9fa571;
 }
 
-.second_line1,
-.second_line2,
-.second_line3,
-.second_line4 {
+footer .second_line {
 	padding: 15px;
 	padding-left: 30px;
 	color: #70757a;
 	font-size: 14px;
 }
 
-.second_line5,
-.second_line6,
-.second_line7 {
+footer .second_line2 {
 	padding: 15px;
 	padding-left: 30px;
 	color: #70757a;
@@ -173,91 +191,76 @@ input:hover {
 	justify-items: left;
 }
 
-.second_line:hover {
+footer .second_line:hover, footer .second_line2:hover {
 	text-decoration: underline;
 }
 
-.second_line1:hover {
-	text-decoration: underline;
-}
 
-.second_line2:hover {
-	text-decoration: underline;
-}
+/*
+CSS RESPONSIVIDADE
+*/
 
-.second_line3:hover {
-	text-decoration: underline;
-}
-
-.second_line4:hover {
-	text-decoration: underline;
-}
-
-.second_line5:hover {
-	text-decoration: underline;
-}
-.second_line6:hover {
-	text-decoration: underline;
-}
-.second_line7:hover {
-	text-decoration: underline;
-}
 
 @media (max-width: 600px) {
 
-	.container_google {
-		height: 630px;
+	/*
+	CSS ÁREA GOOGLE
+	*/
 
+	
+	section .container_google {
+		height: 630px;
 	}
-	.container_google img {
+
+	section .container_google img {
 		padding-bottom: 20px;
 		padding-top:200px;
 		padding-left: 90px;
 	}
 
-	input {
+	section input {
 		width: 380px;
 	}
 
-	.bar_center {
+	section .bar_center {
 		padding-left: 40px;
 	}
+
+
+	/*
+	CSS ÁREA RODAPÉ
+	*/
+
 	
-	.first_line {
+	footer .first_line {
 		font-size: 11px;
 	}
 
-	.second_line1 {
+	footer .second_line:first-child {
 		font-size: 11px;
+		padding-left: 30px;
 	}
 	
-	.second_line2,
-	.second_line3,
-	.second_line4 {
+	footer .second_line {
 		padding-left: 2px;
 		font-size: 11px;
 	}
 
-	.second_line5 {
+	footer .second_line2:first-child {
 		padding-left: 5px;
 		font-size: 11px;
 	}
-	.second_line6,
-	.second_line7 {
+	footer .second_line2 {
 		padding-left: 2px;
 		font-size: 11px;
 	}
-	.second_line4 {
-		width: 140px;
-	}
 
-	.bar_botton3 {
+	footer .bar_botton3 {
 		position: absolute;
 		padding-left: 25px;
 		width: 387px;
 		margin-top: 47px;
 		background-color: #f2f2f2;
 		border-top: 1px solid #9a9fa571;
-
 	}
 }
