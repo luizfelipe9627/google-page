@@ -79,21 +79,21 @@ header .bar_imagens:hover {
 CSS ÁREA GOOGLE
 */
 
-section .container_google {
+article .container_google {
 	display: flex;
 	height: 440px;
 	flex-direction: column;
 	text-align: center;
 }
 
-section img {
+article  img {
 	text-align: center;
 	padding-left: 560px;
 	padding-bottom: 20px;
 	padding-top: 60px;
 }
 
-section input {
+article  input {
 	width: 550px;
 	height: 43px;
 	border-radius: 20px;
@@ -103,18 +103,18 @@ section input {
 	font-size: 17px;
 }
 
-section input:hover {
+article  input:hover {
 	box-shadow: 2px 2px #b9b9b960;
 }
 
-section .bar_center {
+article  .bar_center {
 	display: flex;
 	flex-direction: row;
 	padding-left: 500px;
 }
 
-section .search_google,
-section .luck_google {
+article .search_google,
+article  .luck_google {
 	border: 1px solid #e7e4e431;
 	background-color: #e7e4e431;
 	color: #3f3f3f;
@@ -125,15 +125,15 @@ section .luck_google {
 	margin-left: 18px;
 }
 
-section .search_google:hover {
+article .search_google:hover {
 	border: 1px solid #dadce0;
 }
 
-section .luck_google:hover {
+article .luck_google:hover {
 	border: 1px solid #dadce0;
 }
 
-section .bar_center a {
+article  .bar_center a {
 	text-decoration: none;
 	display: flex;
 }
@@ -208,21 +208,21 @@ CSS RESPONSIVIDADE
 	*/
 
 	
-	section .container_google {
+	article .container_google {
 		height: 630px;
 	}
 
-	section .container_google img {
+	article .container_google img {
 		padding-bottom: 20px;
 		padding-top:200px;
 		padding-left: 90px;
 	}
 
-	section input {
+	article input {
 		width: 380px;
 	}
 
-	section .bar_center {
+	article .bar_center {
 		padding-left: 40px;
 	}
 
