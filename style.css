@@ -142,7 +142,6 @@ footer .bar_botton {
 	background-color: #f2f2f2;
 	width: 100%;
 	height: 47px;
-	margin-top: 28px;
 }
 
 footer .bar_botton2 {
@@ -198,9 +197,10 @@ footer .second_line:hover, footer .second_line2:hover {
 	/*
 		ÁREA GOOGLE ↴
 	*/
-
+	
 	article .container_google {
 		height: 630px;
+		padding-bottom: 15px;
 	}
 
 	article .container_google img {
@@ -247,7 +247,7 @@ footer .second_line:hover, footer .second_line2:hover {
 	footer .bar_botton3 {
 		position: absolute;
 		padding-left: 25px;
-		width: 387px;
+		width: 386px;
 		margin-top: 47px;
 		background-color: #f2f2f2;
 		border-top: 1px solid #9a9fa571;
