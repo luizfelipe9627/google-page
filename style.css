@@ -100,7 +100,7 @@ article  input {
 }
 
 article  input:hover {
-	box-shadow: 2px 2px #b9b9b960;
+	box-shadow: 2px 2px 9px #b9b9b960;
 }
 
 article  .bar_center {
@@ -197,7 +197,7 @@ footer .second_line:hover, footer .second_line2:hover {
 	/*
 		ÁREA GOOGLE ↴
 	*/
-	
+
 	article .container_google {
 		height: 630px;
 		padding-bottom: 15px;
