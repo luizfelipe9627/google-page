@@ -3,10 +3,10 @@
 
 <img src="https://github.com/luizfelipe9627/google-page/blob/main/images/google-page.png" alt="Site">
 
-# Resumo
+## 📄 Resumo
 Como forma de praticar o HTML5 e CSS3 recriei a área principal de pesquisa do google.
 
-# <a href="https://luizfelipe9627.github.io/google-page">Acesse o site</a>
+## <a href="https://luizfelipe9627.github.io/google-page">Acesse o site</a>
 
 ## ✔️ Tecnologias utilizadas
 
