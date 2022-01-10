@@ -1,7 +1,7 @@
 # Google Page
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=GREEN&style=for-the-badge)             
 
-<img src="https://github.com/luizfelipe9627/google-page/blob/master/images/google-page.png" alt="Site">
+<img src="https://github.com/luizfelipe9627/google-page/blob/main/images/google-page.png" alt="Site">
 
 # Resumo
 Como forma de praticar o HTML5 e CSS3 recriei a área principal de pesquisa do google.
