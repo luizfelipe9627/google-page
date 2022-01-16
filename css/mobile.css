@@ -1,0 +1,65 @@
+/*
+	ÁREA RESPONSIVA ↴
+*/
+
+@media (max-width: 600px) {
+
+	/*
+		ÁREA GOOGLE ↴
+	*/
+
+	article .container_google {
+		height: 630px;
+		padding-bottom: 15px;
+	}
+
+	article .container_google img {
+		padding-bottom: 20px;
+		padding-top:200px;
+		padding-left: 90px;
+	}
+
+	article input {
+		width: 380px;
+	}
+
+	article .bar_center {
+		padding-left: 40px;
+	}
+
+	/*
+		ÁREA RODAPÉ ↴
+	*/
+
+	footer .first_line {
+		font-size: 11px;
+	}
+
+	footer .second_line:first-child {
+		font-size: 11px;
+		padding-left: 30px;
+	}
+	
+	footer .second_line {
+		padding-left: 2px;
+		font-size: 11px;
+	}
+
+	footer .second_line2:first-child {
+		padding-left: 5px;
+		font-size: 11px;
+	}
+	footer .second_line2 {
+		padding-left: 2px;
+		font-size: 11px;
+	}
+
+	footer .bar_botton3 {
+		position: absolute;
+		padding-left: 25px;
+		width: 386px;
+		margin-top: 47px;
+		background-color: #f2f2f2;
+		border-top: 1px solid #9a9fa571;
+	}
+}
