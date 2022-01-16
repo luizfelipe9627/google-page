@@ -77,7 +77,7 @@ header .bar_imagens:hover {
 
 article .container_google {
 	display: flex;
-	height: 75vh;
+	height: 100vh;
 	flex-direction: column;
 	text-align: center;
 }
