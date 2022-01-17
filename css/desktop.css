@@ -16,14 +16,14 @@ body {
 	BARRA SUPERIOR ↴
 */
 
-header {
+.section_bar_top {
 	display: flex;
 	flex-direction: row;
 	justify-content: right;
 	padding: 13px;
 }
 
-header a {
+.section_bar_top a {
 	text-decoration: none;
 	color: #3f3f3f;
 }
@@ -67,7 +67,7 @@ header a {
 	text-decoration: underline;
 }
 
-header .bar_imagens:hover {
+.bar_imagens:hover {
 	text-decoration: underline;
 }
 
@@ -75,21 +75,21 @@ header .bar_imagens:hover {
 	ÁREA GOOGLE ↴
 */
 
-article .container_google {
+.container_google {
 	display: flex;
 	height: 100vh;
 	flex-direction: column;
 	text-align: center;
 }
 
-article  img {
+.container_google img {
 	text-align: center;
-	padding-left: 560px;
+	padding-left: 540px;
 	padding-bottom: 20px;
-	padding-top: 60px;
+	padding-top: 100px;
 }
 
-article  input {
+.container_google input {
 	width: 550px;
 	height: 43px;
 	border-radius: 20px;
@@ -99,18 +99,18 @@ article  input {
 	font-size: 17px;
 }
 
-article  input:hover {
+header input:hover {
 	box-shadow: 2px 2px 9px #b9b9b960;
 }
 
-article  .bar_center {
+.bar_center {
 	display: flex;
 	flex-direction: row;
 	padding-left: 500px;
 }
 
-article .search_google,
-article  .luck_google {
+.search_google,
+ .luck_google {
 	border: 1px solid #e7e4e431;
 	background-color: #e7e4e431;
 	color: #3f3f3f;
@@ -121,15 +121,15 @@ article  .luck_google {
 	margin-left: 18px;
 }
 
-article .search_google:hover {
+.search_google:hover {
 	border: 1px solid #dadce0;
 }
 
-article .luck_google:hover {
+.luck_google:hover {
 	border: 1px solid #dadce0;
 }
 
-article  .bar_center a {
+.bar_center a {
 	text-decoration: none;
 	display: flex;
 }
@@ -138,17 +138,14 @@ article  .bar_center a {
 	ÁREA RODAPÉ ↴
 */
 
-footer {
-	overflow-x: hidden;
-}
-
-footer .bar_botton {
+.bar_botton {
 	background-color: #f2f2f2;
 	width: 100vw;
 	height: 47px;
+	overflow-x: hidden;
 }
 
-footer .bar_botton2 {
+.bar_botton2 {
 	display: flex;
 	flex-direction: row;
 	background-color: #f2f2f2;
@@ -156,16 +153,16 @@ footer .bar_botton2 {
 	height: 47px;
 }
 
-footer .bar_botton2 a {
+.bar_botton2 a {
 	display: flex;
 	text-decoration: none;
 }
 
-footer .bar_botton3 {
+.bar_botton3 {
 	padding-left: 410px;
 }
 
-footer .first_line {
+.first_line {
 	padding: 15px;
 	padding-left: 30px;
 	color: #70757a;
@@ -173,14 +170,14 @@ footer .first_line {
 	border-bottom: 1px solid #9a9fa571;
 }
 
-footer .second_line {
+.second_line {
 	padding: 15px;
 	padding-left: 30px;
 	color: #70757a;
 	font-size: 14px;
 }
 
-footer .second_line2 {
+.second_line2 {
 	padding: 15px;
 	padding-left: 30px;
 	color: #70757a;
@@ -188,6 +185,6 @@ footer .second_line2 {
 	justify-items: left;
 }
 
-footer .second_line:hover, footer .second_line2:hover {
+.second_line:hover, .second_line2:hover {
 	text-decoration: underline;
 }
