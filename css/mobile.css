@@ -1,5 +1,5 @@
 /*
-	ÁREA RESPONSIVA ↴
+	ÁREA RESPONSIVA CELULAR ↴
 */
 
 @media (max-width: 600px) {
@@ -8,53 +8,38 @@
 		ÁREA GOOGLE ↴
 	*/
 
-	.container_google {
-		height: 100vh;
-		padding-bottom: 15px;
-	}
-
-	.container_google img {
-		padding-bottom: 20px;
-		padding-top:200px;
-		padding-left: 90px;
-	}
-
 	.container_google input {
-		width: 380px;
-	}
-
-	.container_google .bar_center {
-		padding-left: 40px;
+		width: 90vw;
 	}
 
 	/*
 		ÁREA RODAPÉ ↴
 	*/
 
-	footer .first_line {
+	.first_line {
 		font-size: 11px;
 	}
 
-	footer .second_line:first-child {
+	.second_line:first-child {
 		font-size: 11px;
 		padding-left: 30px;
 	}
 	
-	footer .second_line {
+	.second_line {
 		padding-left: 2px;
 		font-size: 11px;
 	}
 
-	footer .second_line2:first-child {
+	.second_line2:first-child {
 		padding-left: 5px;
 		font-size: 11px;
 	}
-	footer .second_line2 {
+	.second_line2 {
 		padding-left: 2px;
 		font-size: 11px;
 	}
 
-	footer .bar_botton3 {
+	.bar_botton3 {
 		position: absolute;
 		padding-left: 25px;
 		width: 386px;

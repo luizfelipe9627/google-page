@@ -10,6 +10,7 @@ body {
 	font-size: 14px;
 	margin: 0px;
 	padding: 0px;
+	overflow-x: hidden;
 }
 
 /*
@@ -77,16 +78,15 @@ body {
 
 .container_google {
 	display: flex;
+	justify-content: center;
+	align-items: center;
 	height: 100vh;
 	flex-direction: column;
 	text-align: center;
 }
 
 .container_google img {
-	text-align: center;
-	padding-left: 540px;
 	padding-bottom: 20px;
-	padding-top: 100px;
 }
 
 .container_google input {
@@ -95,7 +95,6 @@ body {
 	border-radius: 20px;
 	border: 1px solid #b9b9b960;
 	outline: none;
-	padding-left: 20px;
 	font-size: 17px;
 }
 
@@ -106,7 +105,6 @@ header input:hover {
 .bar_center {
 	display: flex;
 	flex-direction: row;
-	padding-left: 500px;
 }
 
 .search_google,
@@ -142,7 +140,6 @@ header input:hover {
 	background-color: #f2f2f2;
 	width: 100vw;
 	height: 47px;
-	overflow-x: hidden;
 }
 
 .bar_botton2 {
