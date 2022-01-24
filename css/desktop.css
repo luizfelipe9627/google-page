@@ -161,7 +161,7 @@ header input:hover {
 
 .first_line {
 	padding: 15px;
-	padding-left: 30px;
+	padding-left: 50px;
 	color: #70757a;
 	font-size: 14px;
 	border-bottom: 1px solid #9a9fa571;
@@ -169,7 +169,7 @@ header input:hover {
 
 .second_line {
 	padding: 15px;
-	padding-left: 30px;
+	padding-left: 50px;
 	color: #70757a;
 	font-size: 14px;
 }
