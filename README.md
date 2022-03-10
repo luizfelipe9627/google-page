@@ -1,14 +1,17 @@
 # Google Page
-![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=GREEN&style=for-the-badge)             
+![Badge](http://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=GREEN&style=for-the-badge)             
 
 <img src="https://github.com/luizfelipe9627/google-page/blob/main/images/google-page.png" alt="Site">
 
-## 📄 Resumo
-Como forma de praticar o HTML5 e CSS3 recriei a área principal de pesquisa do google.
+## 📄 Descrição
+Clone da área de pesquisa do Google.
 
-## <a href="https://luizfelipe9627.github.io/google-page">Acesse o site</a>
+## 📑 Observação
+Este clone foi criado como um exercicio que foi dado pelo Bonieky do B7WEB para praticar HTML5 e CSS3.
 
-## ✔️ Tecnologias utilizadas
+### <a href="https://luizfelipe9627.github.io/google-page">Acesse o site</a>
+
+## 💻 Tecnologias utilizadas
 
 - ``HTML5``
 - ``CSS3``
@@ -28,7 +31,7 @@ Como forma de praticar o HTML5 e CSS3 recriei a área principal de pesquisa do g
   </tr>
 </table>
 
-## 😄 Me siga nas redes sociais<br>
+## 📷 Me siga nas redes sociais<br>
 
 <p align="left">
   <a href="https://www.linkedin.com/in/luizfelipe9627/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
