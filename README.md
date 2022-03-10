@@ -6,10 +6,15 @@
 ## 📄 Descrição
 Clone da área de pesquisa do Google.
 
+### <a href="https://luizfelipe9627.github.io/google-page">Acesse o site</a>
+
 ## 📑 Observação
 Este clone foi criado como um exercicio que foi dado pelo Bonieky do B7WEB para praticar HTML5 e CSS3.
 
-### <a href="https://luizfelipe9627.github.io/google-page">Acesse o site</a>
+## 🔍 Layout
+Este layout foi criado por Google.
+
+### <a href="https://www.google.com.br">Acesse o layout</a>
 
 ## 💻 Tecnologias utilizadas
 
