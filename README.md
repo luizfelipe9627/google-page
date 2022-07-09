@@ -1,7 +1,7 @@
 # Google Page
 ![Badge](http://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=GREEN&style=for-the-badge)             
 
-<img src="https://github.com/luizfelipe9627/google-page/blob/main/assets/images/google-page.png" alt="Apresentação do Google page">
+<img src="https://github.com/luizfelipe9627/google-page/blob/main/assets/image/google-page.png" alt="Apresentação do Google page">
 
 ## 📄 Descrição
 Clone da área de pesquisa do Google.
